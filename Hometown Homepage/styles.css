@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+}
+
+#allcontent {
+    display: flex;
+    flex-direction: column;
+}
+
+#main--part1 {
+    background-image: url("images/larisa.webp");
+    text-align: center;
+    background-size: cover;
+    color: white;
+    text-shadow:  0 0 2px black;
+    border-radius: 2px;
+}
+
+#main--part1:hover {
+    border: 1px solid #14213d;
+}
+
+#part1--title {
+    background-color: #8e9aaf;
+    max-width: 200px;
+    padding: 5px;
+    margin: 100px auto 20px auto;
+    border-radius: 5px;
+}
+
+#part1--h3 {
+    background-color: #cbc0d3;
+    width: 400px;
+    margin: 0px auto 100px auto;
+    border-radius: 10px;
+    padding: 5px 19px;
+}
+
+#main--part2 {
+    text-align: center;
+    background-color: #dedbd2;
+    border-radius: 2px;
+}
+
+#main--part2:hover {
+    border: 1px solid #14213d;
+}
+
+
+#top3act {
+    display: flex;
+    justify-content: space-around
+}
+
+#top3act--title {
+    margin: 30px 0;
+}
+
+.top3act--img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%
+}
+
+.top3act--choice {
+    width: 230px;
+    padding: 20px
+}
+
+.top3act--choice:hover {
+    background-color: #a5a78d;
+    border: 1px solid black;
+}
+
+.non--bold {
+    font-weight: normal;
+}
+
+#main--part3 {
+    text-align: center;
+    background-color: white;
+    border-radius: 2px;
+}
+
+#main--part3:hover {
+    border: 1px solid #14213d;
+}
+
+
+#guide--info {
+    display: flex;
+    padding: 20px;
+    background-color: #cbc0d3;
+    border-bottom: 6px solid #8e9aaf;
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+#guide--info:hover {
+    animation: jump 1s;
+    border: 1px solid #ffc8dd;
+}
+
+#guide--img {
+    border-radius: 20px;
+    width: 200px;
+    height: 250px;
+}
+
+@keyframes jump {
+    0% {
+        transform: rotateX(0px);
+    }
+    25% {
+        transform: rotate(2deg);
+    }
+    50% {
+        transform: rotateX(0px);
+    }
+    75% {
+        transform: rotate(-2deg);
+    }
+    100% {
+        transform: rotateX(0px);
+    }
+}
